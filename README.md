@@ -4,6 +4,8 @@ Tutorials of threading
 Thread Basics
 - A thread is a flow of execution.
 
+Folder: BasicsOfThreading
+
 files: 
 1. gettting-started.py 
   contains the basics thread creation and calling it in main function 
@@ -27,3 +29,7 @@ Daemon Threads: A thread in the python that will immediately shutdown when the p
 They are thread that are killed wherever they are when the program exits
 Daemon threads are useful in situations where you have tasks that need to be performed continuously or in the background, but you don't want them to keep the program running indefinitely. 
 For example, if you have a web server running as the main program and you want to have a separate thread to handle incoming requests, you can make that thread a daemon thread. 
+
+Daemon threads basics files; 
+
+daemon_threads.py
