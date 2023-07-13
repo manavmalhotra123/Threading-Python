@@ -5,8 +5,18 @@ import time
 # Thread function
 def thread_function(name, duration):
     logging.info("Thread %s: starting", name)
-    time.sleep(duration)
-    logging.info("Thread %s: finishing", name)
+    start_time = time.time()  # Record the start time
+
+    while duration > 0:
+        logging.info("Thread %s: running for %d seconds", name, duration)
+        if duration == 8:
+            time.sleep(2)  # Sleep for 2 seconds at the 8th second
+        else:
+            time.sleep(1)
+        duration -= 1
+
+    elapsed_time = time.time() - start_time  # Calculate elapsed time
+    logging.info("Thread %s: finished in %d seconds", name, elapsed_time)
 
 if __name__ == "__main__":
     # Configure logging format
