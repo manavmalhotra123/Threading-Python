@@ -16,7 +16,7 @@ if __name__ == "__main__":
     # Main program starts here
     logging.info("Main    : before creating thread")
 
-    # Create a new thread
+    # Create a new thread - here the 2 is the thread number
     x = threading.Thread(target=thread_function, args=(1,))
 
     logging.info("Main    : before running thread")
