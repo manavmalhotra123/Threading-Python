@@ -56,3 +56,13 @@ contains the basics application of pool executor to download files in form of ch
 ------------ Race Conditions --------
 It occurs when more than one thread working on same data simuntaneously which lead to inconsistency in data 
 
+Folder RaceCondition 
+File: 
+1. fakedatabase.py 
+contains the code without any race condition.
+
+2. race_condition.py 
+contains the code which is demonstrating the race condition as the copy of updating variable is not made which means 
+they need to share the same variable
+
+
