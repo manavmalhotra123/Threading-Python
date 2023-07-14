@@ -38,3 +38,14 @@ How to create daemon threads
 
 2. show_daemon_threads.py
 n this example, the daemon_task() function runs an infinite loop, printing a message every second. Meanwhile, the main_task() function is a countdown that prints the remaining seconds, with a delay of 1 second between each count.
+
+----------- Thread Pool Executer------------
+A thread pool executor is a concurrent programming construct that manages and reuses a pool of worker threads to execute tasks concurrently. It is a form of thread management that improves the efficiency of thread utilization and simplifies the process of managing threads in concurrent applications.
+
+- helps to run the thread in concurrent applications where the pool of worker threads works on n number of tasks simultaneously
+
+Folder - ThreadPoolExecutor
+
+Files;
+1.pool_executor.py 
+contains the basic of pool executor 
