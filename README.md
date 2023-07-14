@@ -30,6 +30,11 @@ They are thread that are killed wherever they are when the program exits
 Daemon threads are useful in situations where you have tasks that need to be performed continuously or in the background, but you don't want them to keep the program running indefinitely. 
 For example, if you have a web server running as the main program and you want to have a separate thread to handle incoming requests, you can make that thread a daemon thread. 
 
+Folder - Daemon
 Daemon threads basics files; 
 
-daemon_threads.py
+1. daemon_threads.py
+How to create daemon threads 
+
+2. show_daemon_threads.py
+n this example, the daemon_task() function runs an infinite loop, printing a message every second. Meanwhile, the main_task() function is a countdown that prints the remaining seconds, with a delay of 1 second between each count.
