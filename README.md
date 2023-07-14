@@ -49,3 +49,6 @@ Folder - ThreadPoolExecutor
 Files;
 1.pool_executor.py 
 contains the basic of pool executor 
+
+2.file_download.py
+contains the basics application of pool executor to download files in form of chunk 
