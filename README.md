@@ -4,6 +4,15 @@ Tutorials of threading
 Thread Basics
 - A thread is a flow of execution.
 
+
+One Thread 
+![image](https://github.com/manavmalhotra123/Threading-Python/assets/110531978/1effdf58-c6b3-4c1f-a635-0776658bae71)
+
+Two Thread 
+![image](https://github.com/manavmalhotra123/Threading-Python/assets/110531978/60dd6cf0-947c-45f4-ad2b-27ae518925c3)
+
+
+
 Folder: BasicsOfThreading
 
 files: 
