@@ -6,14 +6,11 @@ class FakeDatabase:
     def __init__(self):
         self.value = 0.0
 
-    # here the updation is atomic function 
     def update(self, name):
         log.info(f"Thread {name}: Started update")
-        # copy is saved here which can be read by the other thread when switching is done 
-        local_copy = self.value
-        local_copy += 2
+        # Introduce a race condition by removing local_copy
+        self.value += 2
         time.sleep(0.5)
-        self.value = local_copy
         log.info(f"Thread {name}: Finished updating")
 
 if __name__ == "__main__":
