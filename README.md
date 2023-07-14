@@ -52,3 +52,7 @@ contains the basic of pool executor
 
 2.file_download.py
 contains the basics application of pool executor to download files in form of chunk 
+
+------------ Race Conditions --------
+It occurs when more than one thread working on same data simuntaneously which lead to inconsistency in data 
+

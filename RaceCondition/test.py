@@ -6,12 +6,11 @@ class FakeDatabase:
     def __init__(self):
         self.value = 0.0
 
-    # here the updation is atomic function 
     def update(self, name):
         log.info(f"Thread {name}: Started update")
         local_copy = self.value
         local_copy += 2
-        time.sleep(0.5)
+        
         self.value = local_copy
         log.info(f"Thread {name}: Finished updating")
 
