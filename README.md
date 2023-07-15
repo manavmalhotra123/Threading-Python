@@ -76,4 +76,12 @@ they need to share the same variable
 
 3.LockSync.py 
 contains the code for locking mechanism for handling the synchronization
- 
+
+------------- Deadlock ---------
+
+Folder : deadlaock
+
+Files:
+1.Deadlock.py
+contains the code for the basics program that is demonstrating the deadlock condition
+
