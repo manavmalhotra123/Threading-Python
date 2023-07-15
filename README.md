@@ -74,5 +74,6 @@ contains the code without any race condition.
 contains the code which is demonstrating the race condition as the copy of updating variable is not made which means 
 they need to share the same variable
 
-
+3.LockSync.py 
+contains the code for locking mechanism for handling the synchronization
  
